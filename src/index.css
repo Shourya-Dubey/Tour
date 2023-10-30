@@ -45,6 +45,11 @@ body{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.card:hover{
+  transform: scale(1.02);
+  transition: all 0.29s ease;
+}
+
 .image{
   width: 380px;
   aspect-ratio: 1/1;
